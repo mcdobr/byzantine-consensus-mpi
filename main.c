@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include <mpi.h>
 #include "byzantine.h"
 
 
 int main(int argc, char *argv[]) {
+    srand(time(NULL));
+
     int rank;
     int no_processes;
 

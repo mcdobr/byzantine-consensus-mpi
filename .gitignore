@@ -71,3 +71,7 @@ fabric.properties
 
 .idea/
 byzantine
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
